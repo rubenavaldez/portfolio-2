@@ -4,9 +4,9 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  // SiVercel,
   SiWindows,
   SiJetbrains
+
 } from "react-icons/si";
 
 function Toolstack() {

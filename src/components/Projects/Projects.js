@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import qoca from "../../Assets/Projects/QOCA_SS1.png"
 
 function Projects() {
   return (
@@ -23,12 +24,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={qoca}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Quick Organic Certification Assistant"
+              description="A comprehensive application designed for the certification of organic farms, streamlining the certification process for organic farmers"
+              demoLink="https://app.transition.quickorganics.com/"
             />
           </Col>
 
@@ -37,8 +37,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              description="A lightweight version of QOCA endorsed by the FDA"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>

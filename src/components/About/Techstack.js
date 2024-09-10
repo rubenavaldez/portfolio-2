@@ -2,24 +2,21 @@
 
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+// import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
+  DiDocker,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
+  // SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -46,7 +43,7 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <DiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
