@@ -35,7 +35,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "S“Not only do we live among the stars, the stars live within us.”
+            "Not only do we live among the stars, the stars live within us.""
             {" "}
           </p>
           <footer className="blockquote-footer">Neil deGrasse Tyson</footer>
