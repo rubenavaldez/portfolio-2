@@ -1,10 +1,13 @@
+/** @format */
+
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ctb from "../../Assets/Projects/CodeTimeBank.png";
 import tpp from "../../Assets/Projects/TPP_SS2.png";
-import qoca from "../../Assets/Projects/QOCA_SS1.png"
+import qoca from "../../Assets/Projects/QOCA_SS1.png";
+import scc from "../../Assets/Projects/Star_Calculator1.png";
 
 function Projects() {
   return (
@@ -30,12 +33,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ctb}
+              imgPath={scc}
               isBlog={false}
-              title="Code TimeBank"
-              description="A dynamic social netwroking platform connecting developer of various experience level. A question and answer forum with dynamic profile populated by user GitHub Information."
+              title="Star Calculator"
+              description="Easily calculate star luminosity and distance with this Node.js app, featuring an interactive CLI powered by Inquirer. Enter star details and get precise results using astronomical formulas. "
               ghLink="https://github.com/armjim14/CodeTimebank"
-              demoLink="https://code-timebank.herokuapp.com/"              
             />
           </Col>
 
@@ -49,6 +51,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ctb}
+              isBlog={false}
+              title="Code TimeBank"
+              description="A dynamic social netwroking platform connecting developer of various experience level. A question and answer forum with dynamic profile populated by user GitHub Information."
+              ghLink="https://github.com/armjim14/CodeTimebank"
+              // demoLink="https://code-timebank.herokuapp.com/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
